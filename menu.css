@@ -1,0 +1,180 @@
+
+.navbar {
+    background-color: #F5F0E1;
+}
+
+.navbar-brand {
+    color: #333;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-link {
+    color: #1E3D59 !important;
+    font-family: 'Lato', sans-serif;
+    font-weight: 550;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #FF6F61 !important;
+}
+
+
+/* Menu Section Styling */
+#menu {
+    background-color: #F5F0E1; /* Almond */
+    padding: 3rem 0;
+}
+
+#menu h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    color: #1E3D59; /* Navy */
+}
+
+.menu-category {
+    margin-bottom: 5rem;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+    height: 220px; /* Adjust as needed */
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 2rem;
+    text-align: center;
+    background-color: #FFFFFF; /* White for card background */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #1E3D59; /* Navy */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #28a745; /* Adjust as needed */
+}
+
+.btn-primary {
+    background-color: #FF6E40; /* Red-Orange */
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    color: #FFFFFF; /* White */
+}
+
+.btn-primary:hover {
+    background-color: #e55b2c; /* Darker shade of Red-Orange */
+}
+
+.form-select {
+    width: auto;
+    max-width: 200px;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: #1E3D59; /* Navy */
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 180px; /* Adjust as needed */
+    }
+
+    .card-body {
+        padding: 1.5rem;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+    }
+
+    .price {
+        font-size: 1.25rem;
+    }
+
+    .btn-primary {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .form-select {
+        max-width: 100%;
+    }
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #343a40; /* Dark background for footer */
+    color: #ffffff; /* White text color */
+  }
+  
+  footer h5 {
+    font-size: 1.25rem; /* Font size for section headers */
+    margin-bottom: 1rem; /* Space below headers */
+  }
+  
+  footer p {
+    font-size: 0.875rem; /* Font size for paragraphs */
+  }
+  
+  footer ul {
+    padding-left: 0; /* Remove padding from list */
+  }
+  
+  footer ul li {
+    margin-bottom: 0.5rem; /* Space between list items */
+  }
+  
+  footer ul li a {
+    color: #ffffff; /* Link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  footer .bi {
+    font-size: 1.5rem; /* Size of icons */
+  }
+  
+  footer .d-flex a {
+    margin-right: 1rem; /* Space between social icons */
+  }

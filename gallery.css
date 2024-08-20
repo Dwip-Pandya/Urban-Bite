@@ -1,0 +1,173 @@
+
+.navbar {
+  background-color: #F5F0E1;
+}
+
+.navbar-brand {
+  color: #333;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav-link {
+  color: #1E3D59 !important;
+  font-family: 'Lato', sans-serif;
+  font-weight: 550;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #FF6F61 !important;
+}
+
+
+
+#photo-gallery {
+    background-color: #F5F0E1; /* Almond background */
+}
+
+#photo-gallery h2, #photo-gallery h3 {
+    color: #1E3D59; /* Navy text */
+}
+
+.masonry-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.masonry-layout .img-horizontal {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.masonry-layout .img-vertical {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Adjust the height as needed */
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.masonry-layout img:hover {
+    transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+    .masonry-layout .col-md-6 {
+        flex: 1 0 48%;
+    }
+}
+
+@media (min-width: 992px) {
+    .masonry-layout .col-lg-4 {
+        flex: 1 0 31%;
+    }
+}
+
+
+
+/* Lightbox container */
+.lightbox {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+    overflow: hidden; /* Hide scrollbars */
+  }
+  
+  /* Lightbox content */
+  .lightbox-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Lightbox image */
+  #lightbox-img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+  }
+  
+  /* Close button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1000; /* Ensure the button is above the image */
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+
+
+
+/* Footer Styling */
+footer {
+    background-color: #343a40; /* Dark background for footer */
+    color: #ffffff; /* White text color */
+  }
+  
+  footer h5 {
+    font-size: 1.25rem; /* Font size for section headers */
+    margin-bottom: 1rem; /* Space below headers */
+  }
+  
+  footer p {
+    font-size: 0.875rem; /* Font size for paragraphs */
+  }
+  
+  footer ul {
+    padding-left: 0; /* Remove padding from list */
+  }
+  
+  footer ul li {
+    margin-bottom: 0.5rem; /* Space between list items */
+  }
+  
+  footer ul li a {
+    color: #ffffff; /* Link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  footer .bi {
+    font-size: 1.5rem; /* Size of icons */
+  }
+  
+  footer .d-flex a {
+    margin-right: 1rem; /* Space between social icons */
+  }

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Bite</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Urban Bite</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html" target="_blank">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="event.html" target="_blank">Events</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html" target="_blank">Photo Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" target="_blank">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="FAQ.html" target="_blank">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html" target="_blank">Blog/News</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section with Carousel -->
+    <header class="hero">
+        <div id="heroCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#heroCarousel" data-slide-to="1"></li>
+                <li data-target="#heroCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <img src="images/s1.png" class="d-block w-100" alt="Slide 1">
+                    <div class="carousel-caption d-none d-md-block caro">
+                        <h5>Welcome to Urban Bite</h5>
+                        <p>Ahmedabad’s Premier Destination for Delicious and Diverse Cuisine!</p>
+                        <a href="reservation.html" class="btn btn-primary">Make a Reservation</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/s2.png" class="d-block w-100" alt="Slide 2">
+                    <div class="carousel-caption d-none d-md-block caro">
+                        <h5>Discover Our Menu</h5>
+                        <p>Explore a wide variety of dishes from around the world.</p>
+                        <a href="menu.html" class="btn btn-primary">View Menu</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/s3.png" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption d-none d-md-block caro">
+                        <h5>Join Us for Special Events</h5>
+                        <p>Check out our upcoming events and make your reservation.</p>
+                        <a href="event.html" class="btn btn-primary">Check Events</a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+    <!-- About Us Section -->
+    <section id="about-us" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 display-4 font-weight-bold">About Us</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="text-container">
+                        <h3 class="font-weight-bold mb-3">Welcome to Urban Bite</h3>
+                        <p class="lead">At Urban Bite, we blend tradition and innovation to offer an unforgettable
+                            dining experience. Our menu features a diverse selection of Indian, Italian, American,
+                            Mexican, and Healthy cuisines, with a primary focus on Indian delicacies. Whether you’re
+                            here for a family meal, a romantic dinner, or a casual hangout with friends, we’ve got
+                            something for everyone.</p>
+                        <p class="lead">Our chefs use only the freshest ingredients to create flavorful dishes that
+                            celebrate the rich culinary heritage of our diverse menu. From our signature Tandoori
+                            Chicken to our delicious Italian pastas, every meal is crafted with care and passion. Join
+                            us at Urban Bite and experience a culinary journey like no other.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="image-wrapper">
+                        <img src="images/about 1 (1).png" class="img-fluid rounded shadow-lg" alt="About Us Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about us -->
+    <!-- Featured Dishes Section -->
+    <section id="featured-dishes" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 display-4 font-weight-bold">Featured Dishes</h2>
+            <div class="row">
+                <!-- Dish 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm position-relative">
+                        <img src="images/paneer-butter-masala.png" class="card-img-top" alt="Dish 1">
+                        <div class="overlay d-flex justify-content-center align-items-center">
+                            <div class="text-center">
+                                <h5 class="text-white">Butter Chicken</h5>
+                                <p class="text-white">A rich and creamy tomato-based curry with tender pieces of Panner.
+                                    Served with naan and rice.</p>
+                                <a href="#" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Butter Chicken (India cuisine)</h5>
+                            <p class="card-text"></p>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i> <!-- For 4.5 out of 5 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Dish 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm position-relative">
+                        <img src="images/Margherita Pizza.png" class="card-img-top" alt="Dish 2">
+                        <div class="overlay d-flex justify-content-center align-items-center">
+                            <div class="text-center">
+                                <h5 class="text-white">Margherita Pizza</h5>
+                                <p class="text-white">A classic pizza topped with fresh tomatoes, mozzarella cheese, and
+                                    basil leaves, drizzled with olive oil.</p>
+                                <a href="#" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Margherita Pizza (Italian Cuisine)</h5>
+                            <p class="card-text"></p>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i> <!-- For 4.5 out of 5 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Dish 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm position-relative">
+                        <img src="images/bbq.png" class="card-img-top" alt="Dish 3">
+                        <div class="overlay d-flex justify-content-center align-items-center">
+                            <div class="text-center">
+                                <h5 class="text-white">BBQ Ribs</h5>
+                                <p class="text-white">Juicy pork ribs glazed with a smoky BBQ sauce, served with
+                                    coleslaw and fries.</p>
+                                <a href="#" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">BBQ Ribs (American Cuisine)</h5>
+                            <p class="card-text"></p>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i> <!-- For 4.0 out of 5 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4 mb-4">
+                <a href="menu.html" class="btn btn-primary">Menu</a>
+            </div>
+        </div>
+    </section>
+    <!-- Call to Action Section -->
+    <section id="call-to-action" class="py-5 text-center">
+        <!-- Image Gallery Section -->
+        <h2 class="display-4 text-center mb-4">Event Highlights</h2>
+        <p class="lead text-center mb-4">Explore some of the most memorable moments from our events!</p>
+
+        <div class="d-inline-flex p-2 container row">
+            <!-- Gallery Item 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="gallery-item">
+                    <img src="images/event1.png" class="img-fluid" alt="Event 1">
+                    <div class="gallery-caption">
+                        <h5>Event Title 1</h5>
+                        <p>Brief description of the event or details.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Gallery Item 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="gallery-item">
+                    <img src="images/event2.png" class="img-fluid" alt="Event 2">
+                    <div class="gallery-caption">
+                        <h5>Event Title 2</h5>
+                        <p>Brief description of the event or details.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Gallery Item 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="gallery-item">
+                    <img src="images/event3.png" class="img-fluid" alt="Event 3">
+                    <div class="gallery-caption">
+                        <h5>Event Title 3</h5>
+                        <p>Brief description of the event or details.</p>
+                    </div>
+                </div>
+            </div>
+        <div class="container">
+            <h2 class="display-4 font-weight-bold mb-4">Ready to Experience Urban Bite?</h2>
+            <p class="lead mb-4">Discover our menu, make a reservation, or check out our upcoming events. We can't wait
+                to welcome you!</p>
+
+            <div class="d-flex justify-content-center mb-5">
+                <a href="reservation.html" class="btn btn-primary mx-2">Make a Reservation</a>
+                <a href="menu.html" class="btn btn-secondary mx-2">View Menu</a>
+                <a href="event.html" class="btn btn-success mx-2">Check Upcoming Events</a>
+            </div>
+        </div>
+    </section>
+    <!-- call to action ends -->
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <!-- About Urban Bite -->
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>About Urban Bite</h5>
+                    <p>Urban Bite offers a diverse dining experience with a focus on Indian cuisine, complemented by
+                        American and Italian favorites. Join us in Ahmedabad for an unforgettable culinary journey.</p>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="#menu" class="text-white text-decoration-none">Menu</a></li>
+                        <li><a href="#reservations" class="text-white text-decoration-none">Reservations</a></li>
+                        <li><a href="#events" class="text-white text-decoration-none">Events</a></li>
+                        <li><a href="#contact-us" class="text-white text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Information -->
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Contact Us</h5>
+                    <p><i class="bi bi-geo-alt"></i> 123 Urban Street, Ahmedabad, India</p>
+                    <p><i class="bi bi-telephone"></i> +91 123 456 7890</p>
+                    <p><i class="bi bi-envelope"></i> info@urbanbite.com</p>
+                    <div class="d-flex">
+                        <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p>&copy; 2024 Urban Bite. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Bootstrap Icons CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+
+</body>
+
+</html>

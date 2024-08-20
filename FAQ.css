@@ -1,0 +1,118 @@
+body{
+  background-image: url('images/restaurant\ photo\ 2.png');
+}
+
+.navbar {
+  background-color: #F5F0E1;
+}
+
+.navbar-brand {
+  color: #333;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav-link {
+  color: #1E3D59 !important;
+  font-family: 'Lato', sans-serif;
+  font-weight: 550;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #FF6E40 !important;
+}
+
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #FF6E40;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  margin-top: 15px;
+  box-shadow: 0px 0px 12px rgba(255, 255, 255, 1);
+  border-radius: 8px;
+}
+
+details {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #FFF;
+  border-radius: 5px;
+}
+
+summary:hover {
+  background-color: #FF6E40;
+  color: #FFF;
+}
+
+.answer {
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .row {
+      flex-direction: column;
+  }
+}
+
+
+
+footer {
+  background-color: #343a40; 
+  color: #ffffff; 
+}
+
+footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem; 
+}
+
+footer p {
+  font-size: 0.875rem; 
+}
+
+footer ul {
+  padding-left: 0; 
+}
+
+footer ul li {
+  margin-bottom: 0.5rem; 
+}
+
+footer ul li a {
+
+  text-decoration: none; 
+}
+
+footer ul li a:hover {
+  text-decoration: underline; 
+}
+
+footer .bi {
+  font-size: 1.5rem; 
+}
+
+footer .d-flex a {
+  margin-right: 1rem; 
+}
